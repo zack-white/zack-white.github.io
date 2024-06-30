@@ -54,8 +54,6 @@ const Dashboard = () => {
                     }).then(res => res.json()).then(res => localStorage.setItem("latestMsg", res.message.content));
                 receiveMsg(chatMessages);
         }
-        // (res => res.json()).then(res => localStorage.setItem(latestMsg, res))
-        // (res => res.json()).then(res => localStorage.setItem("latestMsg", res.message.content));
         return (
           <>
             <div className='App'>
