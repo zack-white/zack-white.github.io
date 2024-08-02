@@ -17,13 +17,13 @@ export function Homepage() {
             </p>
             <div className="flex gap-4">
               <Link href="https://github.com/zack-white" className="text-primary hover:underline" prefetch={false}>
-                <GithubIcon className="h-6 w-6" />
+                <GithubIcon  />
               </Link>
               <Link href="https://www.linkedin.com/in/zachary-white-455b37274/" className="text-primary hover:underline" prefetch={false}>
-                <LinkedinIcon className="h-6 w-6" />
+                <LinkedinIcon  />
               </Link>
               <Link href="https://x.com/zwhite4_" className="text-primary hover:underline" prefetch={false}>
-                <TwitterIcon className="h-6 w-6" />
+                <TwitterIcon/>
               </Link>
             </div>
           </div>
@@ -106,9 +106,9 @@ export function Homepage() {
                 </div>
               </TabsContent>
               <TabsContent value="download">
-                <Button as="a" href="/resume.pdf" download className="w-full">
+                <a href="/resume.pdf" download className="w-full">
                   Download Resume
-                </Button>
+                </a>
               </TabsContent>
             </Tabs>
           </div>
@@ -118,10 +118,9 @@ export function Homepage() {
   )
 }
 
-function GithubIcon(props) {
+function GithubIcon() {
   return (
     <svg
-      {...props}
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
@@ -139,10 +138,9 @@ function GithubIcon(props) {
 }
 
 
-function LinkedinIcon(props) {
+function LinkedinIcon() {
   return (
     <svg
-      {...props}
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
@@ -161,10 +159,9 @@ function LinkedinIcon(props) {
 }
 
 
-function TwitterIcon(props) {
+function TwitterIcon() {
   return (
     <svg
-      {...props}
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
@@ -181,10 +178,9 @@ function TwitterIcon(props) {
 }
 
 
-function XIcon(props) {
+function XIcon() {
   return (
     <svg
-      {...props}
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
