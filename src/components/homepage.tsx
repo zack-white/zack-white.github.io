@@ -69,18 +69,18 @@ export function Homepage() {
                   className="mb-4 rounded-lg object-cover"
                 />
                 <h3 className="text-lg font-semibold">ML Sentiment Analysis</h3>
-                <p className="text-muted-foreground">A brief description of Project 2.</p>
+                <p className="text-muted-foreground">NLP Dashboard using self-trained LLMs</p>
               </div>
               <div className="rounded-lg border bg-background p-4 shadow-sm transition-all hover:scale-[1.02] hover:shadow-md">
                 <img
-                  src="/placeholder.svg"
+                  src="/gutenberg.jpg"
                   width={240}
                   height={160}
-                  alt="Project 3"
+                  alt="Gerp"
                   className="mb-4 rounded-lg object-cover"
                 />
-                <h3 className="text-lg font-semibold">Project 3</h3>
-                <p className="text-muted-foreground">A brief description of Project 3.</p>
+                <h3 className="text-lg font-semibold">Gerp</h3>
+                <p className="text-muted-foreground">Grep implementation in C</p>
               </div>
             </div>
           </div>
